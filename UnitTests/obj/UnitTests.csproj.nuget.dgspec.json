@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\bsu\\.net'\\ASP\\lab\\UnitTests\\UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\bsu\\.net'\\ASP\\lab\\Domain\\Domain.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\bsu\\.net'\\ASP\\lab\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\bsu\\.net'\\ASP\\lab\\Domain\\Domain.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\bsu\\.net'\\ASP\\lab\\UnitTests\\UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\bsu\\.net'\\ASP\\lab\\UnitTests\\UnitTests.csproj",
+        "projectName": "UnitTests",
+        "projectPath": "C:\\bsu\\.net'\\ASP\\lab\\UnitTests\\UnitTests.csproj",
+        "packagesPath": "C:\\Users\\nasty\\.nuget\\packages\\",
+        "outputPath": "C:\\bsu\\.net'\\ASP\\lab\\UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nasty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\bsu\\.net'\\ASP\\lab\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\bsu\\.net'\\ASP\\lab\\Domain\\Domain.csproj"
+              },
+              "C:\\bsu\\.net'\\ASP\\lab\\WebUI\\WebUI.csproj": {
+                "projectPath": "C:\\bsu\\.net'\\ASP\\lab\\WebUI\\WebUI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.6, )"
+            },
+            "Ninject.MVC3": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Ninject.Web.Common": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\bsu\\.net'\\ASP\\lab\\WebUI\\WebUI.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\bsu\\.net'\\ASP\\lab\\WebUI\\WebUI.csproj",
+        "projectName": "WebUI",
+        "projectPath": "C:\\bsu\\.net'\\ASP\\lab\\WebUI\\WebUI.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\bsu\\.net'\\ASP\\lab\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\bsu\\.net'\\ASP\\lab\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

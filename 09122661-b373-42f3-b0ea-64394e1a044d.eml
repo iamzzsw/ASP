@@ -1,0 +1,17 @@
+X-Sender: bookshop@example.com
+X-Receiver: orders@example.com
+MIME-Version: 1.0
+From: bookshop@example.com
+To: orders@example.com
+Date: 6 Dec 2023 12:49:39 +0300
+Subject: New order sent
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+VGhlIG9yZGVyIGhhcyBiZWVuIHByb2Nlc3NlZA0KLS0tLS0tLS0tLS0tLS0tLS0tLQ0K
+cHJvZHVjdHM6DQo0IHggUHl0aG9uIGZvciBEYXRhIEFuYWx5c2lzLCAzcmQgRWRpdGlv
+biAoc3VtOiAxNDQsNzIg4oK9VG90YWwgcHJpY2U6IDE0NCw3MiDigr0tLS0tLS0tLS0t
+LS0tLS0tLS0tDQpEZWxpdmVyeQ0K0JDQvdCw0YHRgtCw0YHQuNGPINCU0LzQuNGC0YDQ
+uNC10LLQvdCwINCa0YPRgdC60L7QstCwDQrRg9C7LiDQm9GO0YbQuNC90YHQutCw0Y8s
+IDcNCtCzLiDQnNC40L3RgdC6DQrQkdC10LvQsNGA0YPRgdGMDQotLS0tLS0tLS0tLS0t
+LS0tLS0tDQpDb3VyaWVyIGRlbGl2ZXJ5OiBubw==
